@@ -11,6 +11,19 @@ React Native Web's `<Pressable>`, but with Remix's `<Link>` magic.
 
 ## How to use:
 
+Install it with your favorite package manager:
+
+```bash
+# npm
+npm install remix-react-native-pressable
+
+# yarn
+yarn add remix-react-native-pressable
+
+# pnpm
+pnpm add remix-react-native-pressable
+```
+
 Imagine `<RemixPressable>` is like a Remix `<Link>`, but with all the React Native Web `Pressable` props!
 
 Here's a little example using the `to` property.
