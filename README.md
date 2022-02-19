@@ -7,7 +7,7 @@
 [![License][twitter-badge]][twitter]
 [![License][star-badge]][star]
 
-React Native Web's `Pressable`, but with Remix's Link magic.
+React Native Web's `<Pressable>`, but with Remix's `<Link>` magic.
 
 ## How to use:
 
