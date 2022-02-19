@@ -8,9 +8,10 @@
     "react",
     "react native web"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "Horus Lugo <hola@horus.dev>",
+  "repository": "HorusGoul/remix-react-native-pressable",
   "main": "dist/index.js",
   "module": "dist/remix-react-native-pressable.esm.js",
   "typings": "dist/index.d.ts",

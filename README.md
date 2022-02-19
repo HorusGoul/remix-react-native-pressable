@@ -36,7 +36,7 @@ We also provide a `<RemixPressableChildren>` component and a `useRemixPressableP
 
 - Check out the [Remix's `<Link>` documentation for more info](https://remix.run/docs/en/v1/api/remix#link).
 - Since Remix's `<Link>` wraps React Router DOM's `<Link>`, you can use [the same props](https://reactrouter.com/docs/en/v6/api#link).
-- Also, React Native Web's `Pressable` has a [full list of props](https://necolas.github.io/react-native-web/docs/pressable/).
+- Also, React Native Web's `<Pressable>` has a [full list of props](https://necolas.github.io/react-native-web/docs/pressable/).
 
 ## Contributors
 
