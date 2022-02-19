@@ -1,0 +1,22 @@
+{
+  "files": ["README.md"],
+  "imageSize": 100,
+  "commit": false,
+  "contributorsPerLine": 7,
+  "projectName": "remix-react-native-pressable",
+  "projectOwner": "HorusGoul",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true,
+  "commitConvention": "none",
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg)](#contributors)",
+  "contributors": [
+    {
+      "login": "HorusGoul",
+      "name": "Horus Lugo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6759612?v=4",
+      "profile": "https://horus.dev",
+      "contributions": ["maintenance", "ideas", "code", "design", "review"]
+    }
+  ]
+}

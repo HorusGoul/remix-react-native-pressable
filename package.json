@@ -1,0 +1,86 @@
+{
+  "name": "remix-react-native-pressable",
+  "description": "React Native Web's Pressable, but with Remix's Link magic.",
+  "keywords": [
+    "remix",
+    "react native",
+    "pressable",
+    "react",
+    "react native web"
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Horus Lugo <hola@horus.dev>",
+  "main": "dist/index.js",
+  "module": "dist/remix-react-native-pressable.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "analyze": "size-limit --why",
+    "build": "dts build",
+    "lint": "dts lint",
+    "prepare": "remix setup node && dts build",
+    "size": "size-limit",
+    "start": "dts watch",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "dts lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "peerDependencies": {
+    "react": ">=16",
+    "react-native": "*",
+    "react-router-dom": ">=6",
+    "remix": ">=1"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "size-limit": [
+    {
+      "path": "dist/remix-react-native-pressable.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/remix-react-native-pressable.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "devDependencies": {
+    "@remix-run/dev": "^1.2.1",
+    "@remix-run/react": "^1.2.1",
+    "@remix-run/serve": "^1.2.1",
+    "@size-limit/preset-small-lib": "^7.0.8",
+    "@tsconfig/create-react-app": "^1.0.2",
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "@types/react-native": "^0.66.16",
+    "all-contributors-cli": "^6.20.0",
+    "dts-cli": "^1.3.0",
+    "husky": "^7.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-native": "^0.63.0",
+    "react-router-dom": "^6.2.1",
+    "remix": "^1.0.0",
+    "size-limit": "^7.0.8",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.5"
+  }
+}
