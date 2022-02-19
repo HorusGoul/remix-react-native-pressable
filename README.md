@@ -17,7 +17,7 @@ Here's a little example using the `to` property.
 
 ```tsx
 import { View, Text } from 'react-native';
-import { RemixPressable } from 'remix-react-native-web';
+import { RemixPressable } from 'remix-react-native-pressable';
 
 export default function MyRemixRoute() {
   return (
